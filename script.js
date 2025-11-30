@@ -6,9 +6,12 @@ const sendBtn = document.getElementById("send-btn");
 const botResponses = {
   "hello": "Hi there! How can I help your business today?",
   "pricing": "Our AI chatbot setup starts at ₹999.",
-  "contact": "You can reach us at +91-XXXXXXXXXX.",
+  "contact": "You can reach us at +91-9876543210.",
+  "demo": "This is a live demo of your custom AI chatbot.",
+  "services": "We provide AI chatbots for startups and small tech companies.",
   "default": "Thanks for your message! We'll get back to you soon."
 };
+
 
 function appendMessage(message, className) {
   const div = document.createElement("div");
